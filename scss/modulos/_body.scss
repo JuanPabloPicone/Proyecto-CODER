@@ -1,0 +1,17 @@
+body {
+    height: 200vh;
+    display: grid;
+    grid-template-rows: 10% 75% 22%;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+#bodymain {
+    height: 400vh;
+    display: grid;
+    grid-template-rows: 7% 75% 18%;
+    grid-template-columns: 100%;
+}
