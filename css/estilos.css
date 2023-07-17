@@ -571,6 +571,8 @@ footer {
         justify-content: space-around; 
         margin: auto;
         width: 70%;
+        flex-direction: column;
+        align-items: center;
     }
 
     header nav ul li {
