@@ -197,6 +197,7 @@ main {
             margin: 16px 0;
             font-size: 16px;
         }
+    }    
 
         #textoabajo {
             background-color: rgb(255, 255, 255);
@@ -213,24 +214,22 @@ main {
             background-position: center center;
             background-attachment: fixed;
             background-size: cover;
-        }
-
-        #textomed {
-            width: 600px;
-            height: 180px;
-            display: inline-block;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: white;
-            background-color: black;
-            padding: 30px;
-            border-radius: 4px;
-            text-align: center;
-            font-size: 18px;
-            box-shadow: 7px 13px 37px #000;
-            margin-top: -100px;
-        }
         
-    }
+            #textomed {
+                width: 600px;
+                height: 180px;
+                display: inline-block;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                background-color: black;
+                padding: 30px;
+                border-radius: 4px;
+                text-align: center;
+                font-size: 18px;
+                box-shadow: 7px 13px 37px #000;
+                margin-top: -100px;
+            }
+        }
 
 
 }
