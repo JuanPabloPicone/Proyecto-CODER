@@ -1,0 +1,236 @@
+main {
+    background-color: white;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "seccion1 seccion1 seccion1"
+    "seccion2 seccion2 seccion2";
+    gap: 5px;
+    #seccion1 {
+        background-color: rgb(255, 255, 255);
+        grid-area: seccion1;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        div {
+            background-color: white;
+            width: 70%;
+            justify-items: center;
+            color: rgb(0, 0, 0);
+            border: 1px solid black;
+            box-shadow: 7px 13px 37px #000;
+            border-radius: 4px;
+            img {
+                width: 100%;
+            }
+
+            h4 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                padding: 2px;
+                margin: 7px;
+            }
+
+            p {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                padding: 2px;
+                margin: 7px;
+            }
+        }
+    }
+
+    #seccion2 {
+        background-color: white;
+        grid-area: seccion2;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+
+        div {
+            background-color: white;
+            width: 70%;
+            justify-items: center;
+            color: rgb(0, 0, 0);
+            border: 1px solid black;
+            box-shadow: 7px 13px 37px #000;
+            border-radius: 4px;
+
+            img {
+                width: 100%;
+            }
+
+            h4 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                padding: 2px;
+                margin: 7px;
+            }
+
+            p {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                padding: 2px;
+                margin: 7px;
+            }
+        }
+    }
+    
+}
+
+
+#contactomain {
+    display: grid;
+    grid-template-rows: 1fr 50% 30%;
+    grid-template-columns: 1fr 70% 1fr;
+    grid-template-areas: 
+    "texto1 texto1 texto1"
+    "form form form"
+    "textosabajo textosabajo textosabajo";
+    gap: 5px;
+
+    background-image: url(../assets/img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    #texto1 {
+        background-color: rgb(255, 255, 255);
+        grid-area: texto1;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 100%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 200px;
+    
+        background-image: url(../assets/img/fondo2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #textoarriba {
+        width: 600px;
+        height: 100px;
+        display:inline-block;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        background-color: black;
+        padding: 30px;
+        border-radius: 4px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;  
+        box-shadow: 7px 13px 37px #000;
+    }
+
+    #form {
+        background-color: rgb(255, 255, 255);
+        grid-area: form;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 20% 60% 20%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 270px;
+    }
+    
+    #form {
+        width: 400px;
+        background-color: black;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 2px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+        margin-bottom: 100px;
+
+        h4 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .controles {
+            width: 95%;
+            background: black;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid rgb(234, 0, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: white;
+        }
+
+        p {
+            height: 70px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 40px;
+        }
+
+        a {
+            color: white;
+        }
+        
+        div input {
+            width: 100%;
+            background-color: rgb(234, 0, 255);
+            border: none;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            margin: 16px 0;
+            font-size: 16px;
+        }
+
+        #textoabajo {
+            background-color: rgb(255, 255, 255);
+            grid-area: textosabajo;
+            display: grid;
+            grid-template-rows: 100%;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+        
+            background-image: url(../assets/img/fondo2.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        #textomed {
+            width: 600px;
+            height: 180px;
+            display: inline-block;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            background-color: black;
+            padding: 30px;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 18px;
+            box-shadow: 7px 13px 37px #000;
+            margin-top: -100px;
+        }
+        
+    }
+
+
+}
