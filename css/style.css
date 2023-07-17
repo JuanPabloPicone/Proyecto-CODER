@@ -7,7 +7,10 @@ body {
   display: grid;
   grid-template-rows: 10% 75% 22%;
   grid-template-columns: 100%;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer"; }
 
 #bodymain {
   height: 400vh;
@@ -52,7 +55,9 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "seccion1 seccion1 seccion1" "seccion2 seccion2 seccion2";
+  grid-template-areas: 
+  "seccion1 seccion1 seccion1"
+  "seccion2 seccion2 seccion2";
   gap: 5px; }
   main #seccion1 {
     background-color: white;
@@ -117,7 +122,10 @@ main {
   display: grid;
   grid-template-rows: 1fr 50% 30%;
   grid-template-columns: 1fr 70% 1fr;
-  grid-template-areas: "texto1 texto1 texto1" "form form form" "textosabajo textosabajo textosabajo";
+  grid-template-areas: 
+  "texto1 texto1 texto1"
+  "form form form"
+  "textosabajo textosabajo textosabajo";
   gap: 5px;
   background-image: url(../assets/img/fondo2.jpg);
   background-repeat: no-repeat;
