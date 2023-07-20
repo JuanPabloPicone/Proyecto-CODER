@@ -4,6 +4,7 @@
 @import "./modulos/main";
 @import "./modulos/footer";
 @import "./modulos/mediaquery";
+@import "./modulos/animation";
 
 * {
     @include reset;
