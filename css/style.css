@@ -473,19 +473,19 @@ footer {
       background-position: center center;
       background-attachment: fixed;
       background-size: cover; }
-    #bodymain #textomed {
-      width: 300px;
-      height: 320px;
-      display: inline-block;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      color: white;
-      background-color: black;
-      padding: 30px;
-      border-radius: 4px;
-      text-align: center;
-      font-size: 18px;
-      box-shadow: 7px 13px 37px #000;
-      margin-bottom: -700px; } }
+      #bodymain #textoabajo div #textomed {
+        width: 300px;
+        height: 330px;
+        display: inline-block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        background-color: black;
+        padding: 30px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 18px;
+        box-shadow: 7px 13px 37px #000;
+        margin-bottom: -700px; } }
 
 @media screen and (max-width: 375px) {
   body {
@@ -543,8 +543,34 @@ footer {
         margin-bottom: 50px; }
       #bodymain #form a {
         color: white; }
-    #bodymain #textomed {
-      margin-right: 80px; } }
+    #bodymain #textoabajo {
+      background-color: white;
+      grid-area: textosabajo;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 100%;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+      background-image: url(../assets/img/fondo2.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover; }
+      #bodymain #textoabajo div #textomed {
+        width: 250px;
+        height: 370px;
+        display: inline-block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        background-color: black;
+        padding: 30px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 18px;
+        box-shadow: 7px 13px 37px #000;
+        margin-bottom: -700px;
+        margin-right: 80px; } }
 
 .img-efecto {
   max-width: 100%;
